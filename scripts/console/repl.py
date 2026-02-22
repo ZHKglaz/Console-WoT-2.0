@@ -2,6 +2,7 @@ import io
 import os
 import sys
 import wotdbg
+import traceback
 
 class Repl:
     def __init__(self, response_callback):
@@ -31,7 +32,6 @@ class Repl:
                 exec data in self.local_vars
                 result = ''
         except Exception:
-            import traceback
             result = traceback.format_exc()
         finally:
             sys.stdin = stdin_bak
