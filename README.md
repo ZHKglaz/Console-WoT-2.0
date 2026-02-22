@@ -1,8 +1,12 @@
 Upgraded version and fixed version of "gabrielhamel/WoT-Console-Mod" Repository
+
   Fixed issue :
-    Console can close by Re-pressing F10 or cross in top right corner
-    Console will no longer available in battle
-    Console can only execute script from ingame folder not from other source
+  
+  Console can close by Re-pressing F10 or cross in top right corner
+    
+  Console will no longer available in battle
+    
+  Console can only execute script from ingame folder not from other source
 
 ===Features===
 
