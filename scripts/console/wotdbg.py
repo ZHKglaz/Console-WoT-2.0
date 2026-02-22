@@ -3,6 +3,7 @@ import os.path
 try:
     import BigWorld
 except ImportError:
+    print "BigWorld import failed."
     BigWorld = None
 
 
