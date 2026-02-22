@@ -1,3 +1,4 @@
+import Keys
 from helpers import dependency
 from skeletons.gui.app_loader import IAppLoader
 from gui.Scaleform.framework import ViewSettings, WindowLayer, ScopeTemplates, g_entitiesFactories
