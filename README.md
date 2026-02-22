@@ -8,9 +8,7 @@ Upgraded version and fixed version of "gabrielhamel/WoT-Console-Mod" Repository
 
 Unlocks the hidden developer console in World of Tanks
 Compatible with WoT patch 2.0 and later versions
-Access to in-game debugging and diagnostic commands
-Modular structure with separate scripts and UI components
-Python-based injection scripts for easy customization
+Python-based injection scripts
 Custom UI built with ActionScript 3.0
 
 ===Requirements===
