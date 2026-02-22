@@ -1,3 +1,4 @@
+import Keys
 from helpers import dependency
 from skeletons.gui.app_loader import IAppLoader
 from gui.Scaleform.framework import ViewSettings, WindowLayer, ScopeTemplates, g_entitiesFactories
@@ -14,10 +15,10 @@ def init():
 def fini():
     InputHandler.g_instance.onKeyDown -= onhandleKeyEvent
 
-def onhandleKeyEvent(event):
-    key = getBigworldNameFromKey(event.key)
-    if key == 'KEY_F10':
-        showWindow()
+def onKeyEvent(event):
+      if event.isKeyDown():
+           if event.key == Keys.KEY_F10:
+               showWindow()
 
 def showWindow():
     appLoader = dependency.instance(IAppLoader)
